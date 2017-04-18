@@ -1,17 +1,20 @@
-# Drill down in a visual
+# Drill down in a custom visual
 
-Visuals can now make use of PowerBI's Drill down support.
-(read more about it https://powerbi.microsoft.com/en-us/documentation/powerbi-service-drill-down-in-a-visualization/)
+Custom visuals are capable of using PowerBI's drill down.
+
+Read more about Power BI drill down [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-drill-down-in-a-visualization/)
 
 
-## How to add drill down to your visual
+## How to add drill down support to your custom visual
 
-To add Drill down to your visual, add a new field to "capabilities.json" named `drilldown` who has one property:
+To support drill down in your visual, add a new field to "capabilities.json" named `drilldown` which has one property:
 
-**roles** - the name of the dataRole you want to enable drill down on. Note: (the dataRole must be of 'Grouping' type)
+**roles** - the name of the dataRole you want to enable drill down on. 
+> **NOTE:**  
+The drill down dataRole must be of 'Grouping' type.  
+"max" property in the dataRole conditions must be set to 1. 
 
-Make sure that the property "max" in the conditions of the dataRole is set to 1. 
-once you add this role to `drilldown`, you can drag multiple fields into the data role.
+Once you add the role to `drilldown`, users can drag multiple fields into the data role.
  
 example:
 
