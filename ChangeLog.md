@@ -15,6 +15,11 @@ Versions listed on this page are considered stable and should not change. For in
 * [Chart Utils](https://github.com/Microsoft/powerbi-visuals-utils-chartutils)
 * [Test Utils](https://github.com/Microsoft/powerbi-visuals-utils-testutils)
 
+## API Version v1.6.2
+* **[localization](https://github.com/Microsoft/PowerBI-visuals/blob/master/Visual/Locale.md)** - support for visual localization
+* **[Edit mode](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/AdvancedEditMode.md)** - support for visual to enter in-visual edit mode
+* **[Interactive (html) R custom visuals](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** - support for creating interactive R custom visuals, based on html
+
 ## API Version v1.5.0
 * **[allowInteractions](https://github.com/Microsoft/PowerBI-visuals/blob/master/Visual/AllowInteractions.md)** - support for visual interactivity
 
